@@ -1,0 +1,237 @@
+/* I used margin: 0; padding: 0; to remove the default margins. */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: #F4F1DE;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+/* I used text-align: right; to align the text to the right and position: relative; to ensure it doesn't affect other elements. */
+header {
+    background-color: #F4F1DE;
+    padding: 0.4rem 0.1rem;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    }
+
+    /* I used text-decoration: none; to remove the default underline beneath the text "DXB111. */
+header a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #D4AF37;
+    text-decoration: none;
+    padding:0rem 1rem;
+
+}
+
+/*I used text-align: center; to center the text and border-bottom: 0.5px solid #FFFDD0; to add a cream-colored line at the bottom of the navigation bar.*/
+nav {
+    background-color: #013220;
+    padding: 0.1rem 0.001rem; 
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 0.5px solid #FFFDD0; 
+    
+}
+/* I used list-style-type: none; to remove the list styling and justify-content: space-around; to evenly space the items. */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 1.5rem;
+}
+/* I used text-decoration: none; to remove the default underline. */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.0rem;
+}
+
+/* I used nav ul li a.active to style the link of the currently selected page, making the text bold and the color more noticeable. */
+nav ul li a.active {
+    font-weight: bold;
+    color: #FFD700;
+
+}
+
+.main-image {
+    text-align: center; 
+    margin: 0.1px 0; 
+}
+
+.main-image img {
+    width: 100%; 
+    height: auto;  
+}
+.hero-text h1 {
+    font-size: 19px; 
+    color: #D4AF37;
+    margin-bottom: 0.03rem;
+    
+}
+/* I used margin: 0 auto to center align the element. */
+.hero-text h2 {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1.1;
+    max-width: 80%; 
+    margin: 0 auto; 
+    color: #fff; 
+    margin-top: 0rem;
+}
+.hero-text h3 {
+    font-size: 19px; 
+    color: #D4AF37;
+
+    
+}
+.hero-text h4 {
+    font-size: 30px; 
+    color: #FFD700;
+    background-color: #013220;
+    border-bottom: 1px solid #FFD700; 
+    
+}
+.main-image2 {
+    align-items: center;
+    text-align: center;
+    margin: 20px auto; 
+    display: block;
+}
+
+/* I used border-radius: 25px; to round the corners of the image. */
+.main-image2 img {
+    width: 70%;
+    border-radius: 25px;
+}
+
+
+
+
+/* I used background-color: #F0E68C; to set the background to a light cream color. Additionally, I added 0.5rem of padding on the top and bottom to adjust the height of the section(padding: 0.5rem o;). */
+.works-navigation {
+    background-color: #F0E68C;
+    padding: 0.5rem 0;
+}
+
+/* I used list-style: none; to remove the bullets next to the text and removed all margins and padding so that the elements sit flush against each other. Additionally, I used justify-content: center; to horizontally center the text and flex-wrap: wrap; to allow it to automatically move to the next line. */
+.works-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* I used margin: 0 1rem; to create space between each character. */
+.works-navigation ul li {
+    margin: 0 1rem;
+}
+
+.works-navigation ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.country-section {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* I used text-align: center; to center the text and margin-top: 0.5rem; to add a 0.5rem margin at the top. */
+.country-section h1 {
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 0.7rem;
+    max-width: 90%; 
+    margin: 10px auto; 
+    color:#fff;
+    margin-top: 0.5rem;
+}
+
+/* I used border-bottom: 1px solid #FFD700; to add a 1px golden border at the bottom. */
+.country-section h2 {
+    color: #ffcc00;
+    font-size: 23px; 
+    border-bottom: 1px solid #FFD700; 
+}
+
+.country-section img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ffcc00;
+}
+
+/* I used padding: 2rem 1rem; to add 2rem of padding on the top and bottom and 1rem on the sides. */
+.contact-section {
+    padding: 2rem 1rem;
+    background-color: #013220; 
+}
+
+/* I used margin-bottom: 0.5rem; to add a 0.5rem margin at the bottom of the image. */
+.contact-image {
+    max-width: 350px;
+    margin-bottom: 0.5rem;
+}
+
+/* I used margin-bottom: 0.5rem; to add a 0.5rem margin at the bottom. */
+.contact-section h1 {
+    font-size: 2rem;
+    color: #ffcc00; 
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.contact-section p {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+
+footer {
+    background-color: #F4F1DE;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer nav {
+    margin-top: 0.8rem;
+}
+
+
+/* I used text-decoration: none; to remove the underline from the link and margin: 0 0.5rem; to add 0.5rem of margin on both sides of the link. */
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer nav a:hover {
+    color: #ffcc00;
+}
+
+/* I used this code to make the link text brighter because it was too dark. */
+a {
+    color: #ffcc00; 
+    text-decoration: underline; 
+}
+
